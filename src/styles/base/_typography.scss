@@ -1,0 +1,34 @@
+$primary-font-weight: 300;
+$copy-font-weight: 400;
+
+html,
+body {
+  font-size: 16px;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-weight: $primary-font-weight;
+  color: $black;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  font-weight: $primary-font-weight;
+}
+
+p {
+  font-weight: $copy-font-weight;
+}
+
+a {
+  text-decoration: none;
+  color: $black;
+}
