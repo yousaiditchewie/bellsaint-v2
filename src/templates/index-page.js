@@ -1,14 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
-// import GatsbyImg from '../components/GatsbyImg';
+// import Img from 'gatsby-image';
+import HeroImg from '../components/HeroImg';
 
 import Layout from '../components/Layout';
 
-export const IndexPageTemplate = ({ image, title, altText }) => (
+export const IndexPageTemplate = ({ image }) => (
   <div>
-    {/* <GatsbyImg></GatsbyImg> */}
-    <div
+    {/* <div
       style={{
         backgroundImage: `url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
@@ -16,7 +16,8 @@ export const IndexPageTemplate = ({ image, title, altText }) => (
         backgroundPosition: `top left`,
         backgroundAttachment: `fixed`
       }}
-    />
+    /> */}
+    <HeroImg imageInfo={image} />
   </div>
 );
 

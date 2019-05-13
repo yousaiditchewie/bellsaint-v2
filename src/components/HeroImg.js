@@ -2,8 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Img from 'gatsby-image';
 
-const GatsbyImg = ({ imageInfo }) => {
-  const imageStyle = { borderRadius: '5px' };
+const HeroImg = ({ imageInfo }) => {
+  const imageStyle = { borderRadius: '0' };
   const { alt = '', childImageSharp, image } = imageInfo;
 
   if (!!image && !!image.childImageSharp) {
@@ -22,7 +22,7 @@ const GatsbyImg = ({ imageInfo }) => {
   return null;
 };
 
-GatsbyImg.propTypes = {
+HeroImg.propTypes = {
   imageInfo: PropTypes.shape({
     alt: PropTypes.string,
     childImageSharp: PropTypes.object,
@@ -31,4 +31,4 @@ GatsbyImg.propTypes = {
   }).isRequired
 };
 
-export default GatsbyImg;
+export default HeroImg;
