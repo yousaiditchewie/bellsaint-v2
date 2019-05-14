@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import Logo from './Logo';
 
 const Navigation = class extends React.Component {
   constructor(props) {
@@ -33,41 +34,39 @@ const Navigation = class extends React.Component {
   render() {
     return (
       <nav
-        className="Navigation"
+        className="Navigation container"
         role="navigation"
         aria-label="main-navigation"
       >
-        <div className="container">
-          <div className="navbar-brand">
-            <Link to="/" className="navbar-item" title="Logo">
-              BELLSAINT
+        <div className="Navigation-left">
+          <div className="navbar-start has-text-centered">
+            <Link className="navbar-item" to="/look">
+              Look
             </Link>
-            {/* Hamburger menu */}
-            <div
-              className={`navigation ${this.state.navBarActiveClass}`}
-              data-target="navMenu"
-              onClick={() => this.toggleHamburger()}
-            >
-              <span />
-              <span />
-              <span />
-            </div>
+            <Link className="navbar-item" to="/listen">
+              Listen
+            </Link>
+            <Link className="navbar-item" to="/learn">
+              Learn
+            </Link>
+            <Link className="navbar-item" to="/live">
+              Live
+            </Link>
           </div>
-          <div className={`navbar-menu ${this.state.navBarActiveClass}`}>
-            <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/look">
-                Look
-              </Link>
-              <Link className="navbar-item" to="/listen">
-                Listen
-              </Link>
-              <Link className="navbar-item" to="/learn">
-                Learn
-              </Link>
-              <Link className="navbar-item" to="/live">
-                Live
-              </Link>
-            </div>
+        </div>
+        <div className="Navigation-right">
+          <Link to="/" className="navbar-item" title="Logo">
+            <Logo />
+          </Link>
+          {/* Hamburger menu */}
+          <div
+            className={`navigation ${this.state.navBarActiveClass}`}
+            data-target="navMenu"
+            onClick={() => this.toggleHamburger()}
+          >
+            <span />
+            <span />
+            <span />
           </div>
         </div>
       </nav>
