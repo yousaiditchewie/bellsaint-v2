@@ -34,34 +34,32 @@ const Navigation = class extends React.Component {
   render() {
     return (
       <nav
-        className="Navigation container"
-        role="navigation"
-        aria-label="main-navigation"
+        className='Navigation container'
+        role='navigation'
+        aria-label='main-navigation'
       >
-        <div className="Navigation-left">
-          <div className="navbar-start has-text-centered">
-            <Link className="navbar-item" to="/look">
+        <div className='Navigation-left'>
+          <div className='navbar-start has-text-centered'>
+            <Link className='navbar-item' to='/look'>
               Look
             </Link>
-            <Link className="navbar-item" to="/listen">
+            <Link className='navbar-item' to='/listen'>
               Listen
             </Link>
-            <Link className="navbar-item" to="/learn">
+            <Link className='navbar-item' to='/learn'>
               Learn
             </Link>
-            <Link className="navbar-item" to="/live">
+            <Link className='navbar-item' to='/live'>
               Live
             </Link>
           </div>
         </div>
-        <div className="Navigation-right">
-          <Link to="/" className="navbar-item" title="Logo">
-            <Logo />
-          </Link>
+        <div className='Navigation-right'>
+          <Logo />
           {/* Hamburger menu */}
           <div
             className={`navigation ${this.state.navBarActiveClass}`}
-            data-target="navMenu"
+            data-target='navMenu'
             onClick={() => this.toggleHamburger()}
           >
             <span />

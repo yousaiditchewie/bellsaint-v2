@@ -1,15 +1,15 @@
 .Navigation {
-  max-width: 100vw;
   width: 100%;
   display: flex;
   flex-direction: row;
   border: 1px solid black;
 
   &-left {
-    border-right: 0.5px solid black;
+    width: 50%;
   }
 
   &-right {
-    border-left: 0.5px solid black;
+    width: 50%;
+    border-left: 1px solid black;
   }
 }

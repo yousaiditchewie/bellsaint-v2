@@ -8,26 +8,25 @@ const logoStyles = {
 };
 
 const preLogoStyles = {
-  margin: '0'
+  margin: '0',
+  fontWeight: '300'
 };
 
 const logoWrapperStyles = {
-  display: 'block',
-  width: '50%',
   padding: '1rem'
 };
 
 const Logo = () => {
   return (
-    <div className="Logo" style={logoWrapperStyles}>
-      <p className="preLogo" style={preLogoStyles}>
+    <div className='Logo' style={logoWrapperStyles}>
+      <p className='preLogo' style={preLogoStyles}>
         A WEBSITE BY
       </p>
-      <Link to="/" className="navbar-item" title="Logo">
+      <Link to='/' className='navbar-item' title='Logo-image'>
         <img
           src={logo}
-          alt="BELLSAINT"
-          className="Logo-img"
+          alt='BELLSAINT'
+          className='Logo-img'
           style={logoStyles}
         />
       </Link>
