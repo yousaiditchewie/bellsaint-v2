@@ -34,11 +34,7 @@ const IndexPage = ({ data }) => {
   console.log(frontmatter.image);
   return (
     <Layout>
-      <IndexPageTemplate
-        image={frontmatter.image}
-        title={frontmatter.title}
-        altText={frontmatter.altText}
-      />
+      <IndexPageTemplate image={frontmatter.image} />
     </Layout>
   );
 };
@@ -65,7 +61,6 @@ export const pageQuery = graphql`
             }
           }
         }
-        altText
       }
     }
   }
