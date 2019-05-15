@@ -1,22 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
-// import Img from 'gatsby-image';
 import HeroImg from '../components/HeroImg';
 
 import Layout from '../components/Layout';
 
 export const IndexPageTemplate = ({ image }) => (
   <div>
-    {/* <div
-      style={{
-        backgroundImage: `url(${
-          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-        })`,
-        backgroundPosition: `top left`,
-        backgroundAttachment: `fixed`
-      }}
-    /> */}
     <HeroImg imageInfo={image} />
   </div>
 );
@@ -31,7 +21,6 @@ IndexPageTemplate.propTypes = {
 
 const IndexPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark;
-  console.log(frontmatter.image);
   return (
     <Layout>
       <IndexPageTemplate image={frontmatter.image} />

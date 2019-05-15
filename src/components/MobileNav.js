@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 import Logo from './Logo';
 
-const Navigation = class extends React.Component {
+const MobileNav = class extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -34,32 +34,42 @@ const Navigation = class extends React.Component {
   render() {
     return (
       <nav
-        className="Navigation container"
-        role="navigation"
-        aria-label="main-navigation"
+        className='Navigation container'
+        role='navigation'
+        aria-label='main-navigation'
       >
-        <div className="Navigation-left">
-          <div className="Navigation-list">
-            <Link className="Navigation-item look" to="/look">
+        <div className='Navigation-left'>
+          <div className='navbar-start has-text-centered'>
+            <Link className='navbar-item' to='/look'>
               Look
             </Link>
-            <Link className="Navigation-item listen" to="/listen">
+            <Link className='navbar-item' to='/listen'>
               Listen
             </Link>
-            <Link className="Navigation-item learn" to="/learn">
+            <Link className='navbar-item' to='/learn'>
               Learn
             </Link>
-            <Link className="Navigation-item live" to="/live">
+            <Link className='navbar-item' to='/live'>
               Live
             </Link>
           </div>
         </div>
-        <div className="Navigation-right">
+        <div className='Navigation-right'>
           <Logo />
+          {/* Hamburger menu */}
+          <div
+            className={`navigation ${this.state.navBarActiveClass}`}
+            data-target='navMenu'
+            onClick={() => this.toggleHamburger()}
+          >
+            <span />
+            <span />
+            <span />
+          </div>
         </div>
       </nav>
     );
   }
 };
 
-export default Navigation;
+export default MobileNav;

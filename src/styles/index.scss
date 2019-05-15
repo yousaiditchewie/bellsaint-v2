@@ -10,3 +10,7 @@
 @import 'components/container';
 @import 'components/navigation';
 @import 'components/footer';
+
+* {
+  box-sizing: border-box;
+}
