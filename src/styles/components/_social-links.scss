@@ -1,9 +1,10 @@
 .SocialLinks {
   display: flex;
-  align-items: center;
+  align-items: initial;
 
   &-label {
     padding-right: 1rem;
+
     text-transform: uppercase;
   }
 
