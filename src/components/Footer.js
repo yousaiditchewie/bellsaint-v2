@@ -1,11 +1,16 @@
 import React from 'react';
+import SocialLinks from './footer/SocialLinks';
+import Signup from './footer/Signup';
 
 const Footer = class extends React.Component {
   render() {
     return (
-      <footer className="container">
-        <div>footer will go here</div>
-      </footer>
+      <div className="container">
+        <footer>
+          <SocialLinks />
+          <Signup />
+        </footer>
+      </div>
     );
   }
 };

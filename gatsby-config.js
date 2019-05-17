@@ -32,6 +32,12 @@ module.exports = {
       }
     },
     */
+    // {
+    //   resolve: 'gatsby-plugin-mailchimp',
+    //   options: {
+    //     endpoint: '' // add your MC list endpoint here;
+    //   }
+    // },
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     {
