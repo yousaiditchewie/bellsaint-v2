@@ -1,0 +1,9 @@
+@import './mobile-nav/mobile-logo';
+
+.MobileNav {
+  display: block;
+
+  @media (min-width: 540px) {
+    display: none;
+  }
+}

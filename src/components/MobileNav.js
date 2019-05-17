@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import Logo from './Logo';
+import MobileLogo from './mobileNav/MobileLogo';
 
 const MobileNav = class extends React.Component {
   constructor(props) {
@@ -33,33 +33,29 @@ const MobileNav = class extends React.Component {
 
   render() {
     return (
-      <nav
-        className='Navigation container'
-        role='navigation'
-        aria-label='main-navigation'
-      >
-        <div className='Navigation-left'>
-          <div className='navbar-start has-text-centered'>
-            <Link className='navbar-item' to='/look'>
+      <nav className="MobileNav" role="navigation" aria-label="main-navigation">
+        <div className="MobileNav-slideup">
+          <div className="MobileNav-linkWrapper">
+            <Link className="MobileNav-link" to="/look">
               Look
             </Link>
-            <Link className='navbar-item' to='/listen'>
+            <Link className="MobileNav-link" to="/listen">
               Listen
             </Link>
-            <Link className='navbar-item' to='/learn'>
+            <Link className="MobileNav-link" to="/learn">
               Learn
             </Link>
-            <Link className='navbar-item' to='/live'>
+            <Link className="MobileNav-link" to="/live">
               Live
             </Link>
           </div>
         </div>
-        <div className='Navigation-right'>
-          <Logo />
+        <div className="MobileNav-bottom">
+          <MobileLogo />
           {/* Hamburger menu */}
           <div
             className={`navigation ${this.state.navBarActiveClass}`}
-            data-target='navMenu'
+            data-target="navMenu"
             onClick={() => this.toggleHamburger()}
           >
             <span />
