@@ -22,10 +22,10 @@ const MobileNav = class extends React.Component {
         // set the class in state for the navbar accordingly
         this.state.active
           ? this.setState({
-              navigationActiveClass: 'is-open'
+              activeClass: 'is-open'
             })
           : this.setState({
-              navigationActiveClass: ''
+              activeClass: ''
             });
       }
     );
@@ -33,7 +33,11 @@ const MobileNav = class extends React.Component {
 
   render() {
     return (
-      <nav className="MobileNav" role="navigation" aria-label="main-navigation">
+      <nav
+        className={`MobileNav ${this.state.activeClass}`}
+        role="navigation"
+        aria-label="main-navigation"
+      >
         <div className="MobileNav-slideup">
           <div className="MobileNav-linkWrapper">
             <Link className="MobileNav-link" to="/look">
@@ -53,14 +57,14 @@ const MobileNav = class extends React.Component {
         <div className="MobileNav-bottom">
           <MobileLogo />
           {/* Hamburger menu */}
-          <div
-            className={`navigation ${this.state.navBarActiveClass}`}
-            data-target="navMenu"
-            onClick={() => this.toggleHamburger()}
-          >
-            <span />
-            <span />
-            <span />
+          <div className="MobileNav-toggleWrapper">
+            <div
+              className="MobileNav-toggle"
+              data-target="navMenu"
+              onClick={() => this.toggleMenu()}
+            >
+              <div className="MobileNav-toggle--middleLine" />
+            </div>
           </div>
         </div>
       </nav>
