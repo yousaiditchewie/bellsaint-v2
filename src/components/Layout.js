@@ -8,6 +8,7 @@ import useSiteMetadata from './SiteMetadata';
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();
+  console.log(window.location);
   return (
     <div className="layout">
       <Helmet>
