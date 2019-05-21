@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import MobileLogo from './mobileNav/MobileLogo';
+import SocialLinks from './footer/SocialLinks';
 
 const MobileNav = class extends React.Component {
   constructor(props) {
@@ -52,6 +53,9 @@ const MobileNav = class extends React.Component {
             <Link className="MobileNav-link" to="/live">
               Live
             </Link>
+            <div className="MobileNav-socialLinksWrapper">
+              <SocialLinks />
+            </div>
           </div>
         </div>
         <div className="MobileNav-bottom">

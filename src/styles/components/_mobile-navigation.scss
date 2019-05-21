@@ -1,13 +1,14 @@
 @import './mobile-nav/mobile-logo';
 
 .MobileNav {
-  background: dodgerblue;
   position: fixed;
   bottom: 0;
   left: 0;
   display: block;
   width: 100%;
   padding: 1rem;
+  font-size: 1.25rem;
+  text-transform: uppercase;
 
   // Hide for tablet up
   @media (min-width: 540px) {
@@ -16,7 +17,29 @@
 
   &-slideup {
     max-height: 0;
+    opacity: 0;
     overflow: hidden;
+    background: $white;
+    border-top: 1px solid $black;
+    transition: max-height 0.35s ease-out, opacity 0.25s ease-out;
+
+    .is-open & {
+      max-height: 311px;
+      opacity: 1;
+    }
+  }
+
+  &-linkWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  &-link,
+  &-socialLinksWrapper {
+    padding: 1rem 0;
   }
 
   &-bottom {
@@ -39,10 +62,6 @@
     transform: rotate(0);
     transition: transform 0.25s ease-out;
     cursor: pointer;
-
-    .is-open & {
-      //   transform: rotate(180deg);
-    }
 
     &:before {
       content: '';
