@@ -14,8 +14,11 @@ const Navigation = class extends React.Component {
   // Access window.location.pathname in react
 
   setLayoutClass = () => {
-    const windowGlobal = typeof window !== 'undefined' && window;
-    const pathName = windowGlobal.location.pathname.replace('/', '');
+    if (typeof window == 'undefined') {
+      return '';
+    }
+
+    const pathName = window.location.pathname.replace('/', '');
     switch (pathName) {
       case 'learn':
       case 'listen':
