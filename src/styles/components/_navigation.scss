@@ -29,6 +29,71 @@
     width: 100%;
   }
 
+  &-item {
+    position: relative;
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: -0.25rem;
+      left: -0.25rem;
+      width: calc(100% + 0.5rem);
+      max-width: 0;
+      height: 2px;
+      transition: max-width 0.25s ease-out;
+    }
+
+    @media (any-hover: hover) {
+      &:hover:before {
+        max-width: 70px;
+      }
+    }
+
+    &.look {
+      &:before {
+        background-color: $pink;
+
+        .look & {
+          width: calc(100% + 0.5rem);
+          max-width: 70px;
+        }
+      }
+    }
+
+    &.listen {
+      &:before {
+        background-color: $green;
+
+        .listen & {
+          width: calc(100% + 0.5rem);
+          max-width: 70px;
+        }
+      }
+    }
+
+    &.learn {
+      &:before {
+        background-color: $blue;
+
+        .learn & {
+          width: calc(100% + 0.5rem);
+          max-width: 70px;
+        }
+      }
+    }
+
+    &.live {
+      &:before {
+        background-color: $orange;
+
+        .live & {
+          width: calc(100% + 0.5rem);
+          max-width: 70px;
+        }
+      }
+    }
+  }
+
   &-right {
     width: 50%;
     border-left: 1px solid black;
