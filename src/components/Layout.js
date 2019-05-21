@@ -8,9 +8,26 @@ import useSiteMetadata from './SiteMetadata';
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();
-  console.log(window.location);
+
+  const setBodyClass = () => {
+    let pathName = window.location.pathname.replace('/', '');
+    switch (pathName) {
+      case 'learn':
+      case 'listen':
+      case 'look':
+      case 'live':
+        return pathName;
+      case '':
+        return '';
+      default:
+        return 'not-found';
+    }
+  };
+
+  console.log(setBodyClass());
+  setBodyClass();
   return (
-    <div className="layout">
+    <div className={`layout ${setBodyClass()}`}>
       <Helmet>
         <html lang="en" />
         <title>{title}</title>
