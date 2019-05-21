@@ -6,24 +6,27 @@ const Navigation = class extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      navBarActiveClass: this.setLayoutClass()
+      navBarActiveClass: ''
     };
   }
 
-  setLayoutClass = () => {
-    let pathName = window.location.pathname.replace('/', '');
-    switch (pathName) {
-      case 'learn':
-      case 'listen':
-      case 'look':
-      case 'live':
-        return pathName;
-      case '':
-        return 'home';
-      default:
-        return 'not-found';
-    }
-  };
+  // @todo -- needs further research
+  // Access window.location.pathname in react
+
+  // setLayoutClass = () => {
+  //   let pathName = window.location.pathname.replace('/', '');
+  //   switch (pathName) {
+  //     case 'learn':
+  //     case 'listen':
+  //     case 'look':
+  //     case 'live':
+  //       return pathName;
+  //     case '':
+  //       return 'home';
+  //     default:
+  //       return 'not-found';
+  //   }
+  // };
 
   render() {
     return (
