@@ -9,7 +9,7 @@ import useSiteMetadata from './SiteMetadata';
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();
 
-  const setBodyClass = () => {
+  const setLayoutClass = () => {
     let pathName = window.location.pathname.replace('/', '');
     switch (pathName) {
       case 'learn':
@@ -24,10 +24,8 @@ const TemplateWrapper = ({ children }) => {
     }
   };
 
-  console.log(setBodyClass());
-  setBodyClass();
   return (
-    <div className={`layout ${setBodyClass()}`}>
+    <div className={`layout ${setLayoutClass()}`}>
       <Helmet>
         <html lang="en" />
         <title>{title}</title>
