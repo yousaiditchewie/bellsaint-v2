@@ -6,12 +6,13 @@
   left: 0;
   display: block;
   width: 100%;
-  padding: 1rem;
+  padding: 0 1rem 1rem;
   font-size: 1.25rem;
+  background: $white;
   text-transform: uppercase;
 
   // Hide for tablet up
-  @media (min-width: 540px) {
+  @media (min-width: $tablet) {
     display: none;
   }
 
@@ -21,7 +22,7 @@
     overflow: hidden;
     background: $white;
     border-top: 1px solid $black;
-    transition: max-height 0.35s ease-out, opacity 0.25s ease-out;
+    transition: max-height 0.25s ease, opacity 0.2s ease-out;
 
     .is-open & {
       max-height: 311px;
@@ -114,7 +115,7 @@
       }
     }
 
-    @media only screen and (min-width: 540px) {
+    @media only screen and (min-width: $tablet) {
       display: none;
     }
   }

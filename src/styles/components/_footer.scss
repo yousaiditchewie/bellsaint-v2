@@ -1,7 +1,7 @@
 footer {
   display: none;
 
-  @media (min-width: 540px) {
+  @media (min-width: $tablet) {
     padding-top: 1rem;
     display: flex;
     flex-direction: row;
