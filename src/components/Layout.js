@@ -1,7 +1,8 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-import Footer from '../components/Footer';
 import Navigation from '../components/Navigation';
+import Footer from '../components/Footer';
+import MobileNav from '../components/MobileNav';
 import './all.scss';
 import useSiteMetadata from './SiteMetadata';
 
@@ -44,6 +45,7 @@ const TemplateWrapper = ({ children }) => {
       </Helmet>
       <Navigation />
       <main className="container">{children}</main>
+      <MobileNav />
       <Footer />
     </div>
   );
