@@ -6,35 +6,29 @@ const Navigation = class extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      active: false,
-      navBarActiveClass: ''
+      navBarActiveClass: this.setLayoutClass()
     };
   }
 
-  toggleMenu = () => {
-    // toggle the active boolean in the state
-    this.setState(
-      {
-        active: !this.state.active
-      },
-      // after state has been updated,
-      () => {
-        // set the class in state for the navbar accordingly
-        this.state.active
-          ? this.setState({
-              navigationActiveClass: 'is-open'
-            })
-          : this.setState({
-              navigationActiveClass: ''
-            });
-      }
-    );
+  setLayoutClass = () => {
+    let pathName = window.location.pathname.replace('/', '');
+    switch (pathName) {
+      case 'learn':
+      case 'listen':
+      case 'look':
+      case 'live':
+        return pathName;
+      case '':
+        return 'home';
+      default:
+        return 'not-found';
+    }
   };
 
   render() {
     return (
       <nav
-        className="Navigation container"
+        className={`Navigation container ${this.state.navBarActiveClass}`}
         role="navigation"
         aria-label="main-navigation"
       >

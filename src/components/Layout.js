@@ -9,23 +9,8 @@ import useSiteMetadata from './SiteMetadata';
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();
 
-  const setLayoutClass = () => {
-    let pathName = window.location.pathname.replace('/', '');
-    switch (pathName) {
-      case 'learn':
-      case 'listen':
-      case 'look':
-      case 'live':
-        return pathName;
-      case '':
-        return '';
-      default:
-        return 'not-found';
-    }
-  };
-
   return (
-    <div className={`layout ${setLayoutClass()}`}>
+    <div className="layout">
       <Helmet>
         <html lang="en" />
         <title>{title}</title>
