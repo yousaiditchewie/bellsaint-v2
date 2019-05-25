@@ -88,7 +88,8 @@ module.exports = {
             options: {
               destinationDir: 'static'
             }
-          }
+          },
+          'gatsby-remark-embed-spotify'
         ]
       }
     },
