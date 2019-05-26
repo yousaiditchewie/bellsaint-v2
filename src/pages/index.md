@@ -1,9 +1,7 @@
 ---
-templateKey: 'index-page'
-title: 'BELLSAINT'
-image: '/img/bellsaint-latest-single.jpg'
+templateKey: index-page
+title: BELLSAINT
+image: /img/bellsaint-latest-single.jpg
+spotifyUrl: 'https://open.spotify.com/track/72jF227qW5KQvTUBEqM0Vf'
 ---
 
-###
-
-https://open.spotify.com/track/6jGW1S229w0gmvu4xmxHXt
