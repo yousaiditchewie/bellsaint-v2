@@ -73,7 +73,7 @@
 
     &.learn {
       &:before {
-        background-color: $blue;
+        background-color: $orange;
 
         .learn & {
           width: calc(100% + 0.5rem);
@@ -84,7 +84,7 @@
 
     &.live {
       &:before {
-        background-color: $orange;
+        background-color: $blue;
 
         .live & {
           width: calc(100% + 0.5rem);
