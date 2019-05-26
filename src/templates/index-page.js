@@ -6,6 +6,7 @@ import HeroImg from '../components/HeroImg';
 
 import Layout from '../components/Layout';
 import Content, { HTMLContent } from '../components/Content';
+import '../styles/pages/home.scss';
 
 // https://open.spotify.com/track/1R8pMc6caELFwaDWoecAH3
 export const IndexPageTemplate = ({ image, content, contentComponent }) => {
@@ -25,7 +26,6 @@ IndexPageTemplate.propTypes = {
 
 const IndexPage = ({ data }) => {
   const { markdownRemark } = data;
-  console.log(markdownRemark.html);
   return (
     <Layout>
       <IndexPageTemplate
