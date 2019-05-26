@@ -5,23 +5,22 @@ import HeroImg from '../components/HeroImg';
 // import SpotifyPlayer from '../components/SpotifyPlayer';
 
 import Layout from '../components/Layout';
-import { HTMLContent } from '../components/Content';
+import Content, { HTMLContent } from '../components/Content';
 
 // https://open.spotify.com/track/1R8pMc6caELFwaDWoecAH3
-export const IndexPageTemplate = ({ image, spotifyUrl }) => (
-  <div>
-    <HeroImg imageInfo={image} />
-    <HTMLContent className="SpotifyPlayer" content={spotifyUrl} />
-  </div>
-);
+export const IndexPageTemplate = ({ image, content, contentComponent }) => {
+  const PostContent = contentComponent || Content;
+  return (
+    <div>
+      <HeroImg imageInfo={image} />
+      <PostContent className="SpotifyPlayer" content={content} />
+    </div>
+  );
+};
 
 IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  title: PropTypes.string,
-  heading: PropTypes.string,
-  spotifyUrl: PropTypes.string,
-  subheading: PropTypes.string,
-  description: PropTypes.string
+  title: PropTypes.string
 };
 
 const IndexPage = ({ data }) => {
@@ -30,8 +29,9 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <IndexPageTemplate
+        contentComponent={HTMLContent}
         image={markdownRemark.frontmatter.image}
-        spofityUrl={markdownRemark.html}
+        content={markdownRemark.html}
       />
     </Layout>
   );

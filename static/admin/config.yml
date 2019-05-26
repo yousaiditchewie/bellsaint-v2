@@ -39,9 +39,14 @@ collections:
               widget: 'hidden',
               default: 'index-page',
             }
-          - { label: Title, name: title, widget: string }
-          - { label: Image, name: image, widget: image }
-          - { label: Spotify URL, name: spotifyUrl, widget: markdown }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Image', name: 'image', widget: 'image' }
+          - {
+              label: 'Spotify URL',
+              name: 'spotifyUrl',
+              widget: 'markdown',
+              default: 'https://open.spotify.com/track/6jGW1S229w0gmvu4xmxHXt',
+            }
       - file: 'src/pages/learn/index.md'
         label: 'Learn'
         name: 'learn'
