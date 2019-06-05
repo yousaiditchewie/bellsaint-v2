@@ -1,0 +1,17 @@
+@import '../base/breakpoints';
+
+.Learn {
+  line-height: 1.35;
+
+  @media (min-width: $tablet) {
+    padding: 1rem 0;
+  }
+  @media (min-width: $portable) {
+    columns: 2;
+  }
+
+  p {
+    margin: 0;
+    padding-bottom: 1rem;
+  }
+}
