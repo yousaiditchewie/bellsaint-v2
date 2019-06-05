@@ -83,12 +83,12 @@ module.exports = {
               maxWidth: 2048
             }
           },
-          // {
-          //   resolve: 'gatsby-remark-copy-linked-files',
-          //   options: {
-          //     destinationDir: 'static'
-          //   }
-          // },
+          {
+            resolve: 'gatsby-remark-copy-linked-files',
+            options: {
+              destinationDir: 'static'
+            }
+          },
           'gatsby-remark-embed-spotify'
         ]
       }
