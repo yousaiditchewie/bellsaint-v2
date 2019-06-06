@@ -6,7 +6,6 @@ import Content, { HTMLContent } from '../components/Content';
 import '../styles/pages/listen.scss';
 
 export const ListenPageTemplate = ({
-  title,
   content,
   contentComponent,
   appleMusicUrl,
@@ -17,16 +16,47 @@ export const ListenPageTemplate = ({
   const PageContent = contentComponent || Content;
 
   return (
-    <section className="section">
-      <section className="Listen">
-        <PageContent className="content" content={content} />
-      </section>
+    <section className="Listen">
+      <div className="Listen-links">
+        <a
+          href={appleMusicUrl}
+          className="Listen-link Listen-link--appleMusic"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          APPLE MUSIC
+        </a>
+        <a
+          href={spotifyUrl}
+          className="Listen-link Listen-link--spotify"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          SPOTIFY
+        </a>
+        <a
+          href={youtubeUrl}
+          className="Listen-link Listen-link--youtube"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          YOUTUBE
+        </a>
+        <a
+          href={soundcloudUrl}
+          className="Listen-link Listen-link--soundcloud"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          SOUNDCLOUD
+        </a>
+      </div>
+      <PageContent className="Listen-content" content={content} />
     </section>
   );
 };
 
 ListenPageTemplate.propTypes = {
-  title: PropTypes.string.isRequired,
   appleMusicUrl: PropTypes.string.isRequired,
   spotifyUrl: PropTypes.string.isRequired,
   soundcloudUrl: PropTypes.string.isRequired,
@@ -48,7 +78,6 @@ const ListenPage = ({ data }) => {
     <Layout>
       <ListenPageTemplate
         contentComponent={HTMLContent}
-        title={post.frontmatter.title}
         content={post.html}
         appleMusicUrl={appleMusicUrl}
         spotifyUrl={spotifyUrl}
