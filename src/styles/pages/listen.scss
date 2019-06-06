@@ -1,0 +1,72 @@
+@import '../base/colors';
+@import '../base/breakpoints';
+
+.Listen {
+  @media (min-width: $tablet) {
+    padding: 1rem 0;
+  }
+
+  &-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 0 1rem;
+    border-bottom: 1px solid $black;
+
+    @media (min-width: $tablet) {
+      flex-wrap: nowrap;
+      padding: 2rem 0;
+      border-top: 1px solid $black;
+    }
+
+    @media (min-width: 700px) {
+      font-size: 1.25rem;
+    }
+  }
+
+  &-link {
+    width: 50%;
+    text-align: center;
+    opacity: 1;
+    transition: opacity 0.25s ease;
+
+    @media (min-width: $tablet) {
+      width: auto;
+    }
+
+    &--appleMusic,
+    &--spotify {
+      padding-bottom: 1rem;
+
+      @media (min-width: $tablet) {
+        padding-bottom: 0;
+      }
+    }
+
+    &--youtube {
+      @media (min-width: $tablet) {
+        order: 3;
+      }
+    }
+
+    @media (any-hover: hover) {
+      &:hover {
+        opacity: 0.6;
+      }
+    }
+  }
+
+  &-content {
+    padding-top: 1rem;
+  }
+
+  p {
+    margin: 0;
+    padding-bottom: 1rem;
+  }
+
+  iframe {
+    height: 80px;
+    margin-bottom: 2rem;
+  }
+}
