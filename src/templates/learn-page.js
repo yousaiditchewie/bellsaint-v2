@@ -9,16 +9,8 @@ export const LearnPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content;
 
   return (
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <section className="Learn">
-              <PageContent className="content" content={content} />
-            </section>
-          </div>
-        </div>
-      </div>
+    <section className="Learn">
+      <PageContent className="Learn-content" content={content} />
     </section>
   );
 };
