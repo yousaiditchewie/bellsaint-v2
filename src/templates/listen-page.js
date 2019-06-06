@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import Content, { HTMLContent } from '../components/Content';
+import '../styles/pages/listen.scss';
 
 export const ListenPageTemplate = ({
   title,
@@ -16,16 +17,10 @@ export const ListenPageTemplate = ({
   const PageContent = contentComponent || Content;
 
   return (
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <section className="Listen">
-              <PageContent className="content" content={content} />
-            </section>
-          </div>
-        </div>
-      </div>
+    <section className="section">
+      <section className="Listen">
+        <PageContent className="content" content={content} />
+      </section>
     </section>
   );
 };
