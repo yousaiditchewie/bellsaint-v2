@@ -86,10 +86,14 @@ collections:
             }
           - { label: 'Title', name: 'title', widget: 'string' }
           - {
-              label: 'Gallery',
-              name: 'gallery',
-              widget: 'list',
-              fields: [{ label: 'Image', name: 'image', widget: image }],
+              label: Gallery,
+              name: gallery,
+              widget: list,
+              fields:
+                [
+                  { label: Image, name: image, widget: image },
+                  { label: Alt Text, name: altText, widget: string },
+                ],
             }
       - file: 'src/pages/products/index.md'
         label: 'Products Page'
