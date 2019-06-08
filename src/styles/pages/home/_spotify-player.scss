@@ -1,5 +1,11 @@
+@import '../../base/colors';
+
 .SpotifyPlayer {
   p {
     margin: 0;
+  }
+
+  iframe {
+    background: $light-gray;
   }
 }

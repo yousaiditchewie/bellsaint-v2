@@ -1,27 +1,44 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
+import '../styles/components/Gallery.scss';
 
 const Gallery = ({ imageList }) => (
-  <div className="columns is-multiline">
+  <div className="Gallery">
     {imageList.map(item => (
-      <div key={item.altText} className="column is-6">
-        <section className="section">
-          <div className="has-text-centered">
-            <div
-              style={{
-                width: '240px',
-                display: 'inline-block'
-              }}
-            >
-              <PreviewCompatibleImage imageInfo={item} />
-            </div>
-          </div>
-        </section>
+      <div
+        key={item.altText.replace(' ', '_')}
+        className="Gallery-thumbnail"
+        style={{
+          backgroundImage: `url(.${item.image.childImageSharp.fluid.src})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat'
+        }}
+        onClick={handleClick}
+      >
+        <div className="Gallery-thumbnailFrame" />
       </div>
     ))}
   </div>
 );
+
+const handleClick = click => {
+  toggleActiveClass(locateThumbnailElement(click.target));
+};
+
+const locateThumbnailElement = element => {
+  if (!element.classList.contains('Gallery-thumbnail')) {
+    return locateThumbnailElement(element.parentElement);
+  }
+
+  return element;
+};
+
+const toggleActiveClass = element => {
+  return element.classList.contains('is-active')
+    ? element.classList.remove('is-active')
+    : element.classList.add('is-active');
+};
 
 Gallery.propTypes = {
   imageList: PropTypes.arrayOf(
