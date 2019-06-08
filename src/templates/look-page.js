@@ -39,7 +39,7 @@ export const LookPageQuery = graphql`
         gallery {
           image {
             childImageSharp {
-              fluid(maxWidth: 240, quality: 64) {
+              fluid(maxWidth: 1040, quality: 64) {
                 ...GatsbyImageSharpFluid
               }
             }
