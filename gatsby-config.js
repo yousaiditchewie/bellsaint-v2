@@ -89,7 +89,7 @@ module.exports = {
               destinationDir: 'static'
             }
           },
-          'gatsby-remark-embed-spotify'
+          { resolve: 'gatsby-remark-embed-spotify', options: { height: 80 } }
         ]
       }
     },
