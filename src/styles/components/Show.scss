@@ -1,0 +1,70 @@
+@import '../base/colors';
+@import '../base/breakpoints';
+
+.Show {
+  padding: 0.5rem 0;
+  font-size: 1.25rem;
+
+  &-border {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+    border-top: 1px solid $black;
+    border-bottom: 1px solid $black;
+
+    @media (min-width: $tablet) {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+
+  &-left,
+  &-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100%;
+    text-align: center;
+  }
+
+  &-left {
+    @media (min-width: $tablet) {
+      text-align: left;
+    }
+  }
+  &-right {
+    @media (min-width: $tablet) {
+      text-align: right;
+    }
+  }
+
+  &-venue,
+  &-cityState {
+    padding-bottom: 1rem;
+  }
+
+  &-date {
+    padding-bottom: 1rem;
+    @media (min-width: $tablet) {
+      padding-bottom: 0.5rem;
+    }
+  }
+
+  &-button {
+    display: inline-block;
+    padding: calc(0.25rem + 1px) 1.25rem;
+    border: 1px solid $black;
+    transition: all 0.25s ease-out;
+
+    &:not(:first-child) {
+      margin-left: 0.5rem;
+    }
+
+    @media (any-hover: hover) {
+      &:hover {
+        background-color: $light-gray;
+        box-shadow: 0px 6px 8px -3px rgba(40, 40, 40, 0.25);
+      }
+    }
+  }
+}

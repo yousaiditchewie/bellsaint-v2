@@ -1,0 +1,10 @@
+@import '../base/colors';
+@import '../base/breakpoints';
+
+.Live {
+  padding: 0.5rem 0;
+  &-shows {
+    display: flex;
+    flex-direction: column;
+  }
+}

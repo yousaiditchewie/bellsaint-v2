@@ -95,6 +95,38 @@ collections:
                   { label: Alt Text, name: altText, widget: string },
                 ],
             }
+      - file: 'src/pages/live/index.md'
+        label: 'Live'
+        name: 'live'
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'live-page',
+            }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - {
+              label: Upcoming Shows,
+              name: shows,
+              widget: list,
+              fields:
+                [
+                  { label: Venue, name: venue, widget: string },
+                  { label: City + State, name: cityState, widget: string },
+                  { label: Date, name: date, widget: string },
+                  {
+                    label: Buttons,
+                    name: buttons,
+                    widget: list,
+                    fields:
+                      [
+                        { label: Text, name: text, widget: string },
+                        { label: URL, name: url, widget: string },
+                      ],
+                  },
+                ],
+            }
       - file: 'src/pages/products/index.md'
         label: 'Products Page'
         name: 'products'

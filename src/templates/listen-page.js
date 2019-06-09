@@ -73,7 +73,6 @@ const ListenPage = ({ data }) => {
     soundcloudUrl,
     youtubeUrl
   } = post.frontmatter;
-  console.log(data);
   return (
     <Layout>
       <ListenPageTemplate
