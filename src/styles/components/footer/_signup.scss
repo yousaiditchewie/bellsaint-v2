@@ -1,0 +1,22 @@
+.Signup {
+  &-email {
+    max-width: 235px;
+    padding: calc(0.25rem + 1px) 1.25rem;
+    border: 1px solid $black;
+    font-weight: $primary-font-weight;
+  }
+
+  &-email,
+  &-submit {
+    background: $white;
+    height: 37px;
+  }
+
+  &-submit {
+    cursor: pointer;
+  }
+
+  .birthday {
+    display: none;
+  }
+}
