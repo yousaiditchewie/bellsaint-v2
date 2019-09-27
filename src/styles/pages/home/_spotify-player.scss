@@ -1,6 +1,9 @@
 @import '../../base/colors';
+@import '../../base/breakpoints';
 
 .SpotifyPlayer {
+  padding-top: 1rem;
+
   p {
     margin: 0;
   }
