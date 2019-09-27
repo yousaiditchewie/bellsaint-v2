@@ -5,12 +5,12 @@ import Signup from './footer/Signup';
 const Footer = class extends React.Component {
   render() {
     return (
-      <div className="container">
-        <footer>
+      <footer className="Footer">
+        <div className="Footer-content">
           <SocialLinks />
           <Signup />
-        </footer>
-      </div>
+        </div>
+      </footer>
     );
   }
 };
