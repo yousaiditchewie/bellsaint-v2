@@ -16,7 +16,7 @@ const Show = ({ show }) => (
             show.buttons.map((button, index) => (
               <a
                 key={index}
-                className="Show-button"
+                className="Show-button button"
                 href={button.url}
                 target="_blank"
                 rel="noreferrer noopener"

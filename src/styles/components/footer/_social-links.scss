@@ -1,6 +1,11 @@
 .SocialLinks {
   display: flex;
   align-items: initial;
+  padding-bottom: 1rem;
+
+  @media (min-width: $portable) {
+    padding-bottom: 0;
+  }
 
   &-label {
     padding-right: 1rem;
