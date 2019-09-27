@@ -5,4 +5,14 @@
   @media (min-width: $tablet) {
     padding: 1rem;
   }
+
+  &-main {
+    @media (min-width: $tablet) {
+      padding-bottom: 115px; // footer height
+    }
+
+    @media (min-width: $portable) {
+      padding-bottom: 70px;
+    }
+  }
 }
