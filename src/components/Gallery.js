@@ -5,7 +5,7 @@ import '../styles/components/Gallery.scss';
 const GalleryThumbnail = ({ item, idx }) => {
   const [isActive, setIsActive] = useState(false);
 
-  const handleClick = click => {
+  const handleClick = () => {
     setIsActive(!isActive);
   };
 
@@ -17,7 +17,7 @@ const GalleryThumbnail = ({ item, idx }) => {
       <div
         id={`gallery-image-${idx + 1}`}
         key={idx}
-        className={`Gallery-thumbnail ${isActive ? 'is-active' : ''}`}
+        className="Gallery-thumbnail"
         style={{
           backgroundImage: `url(.${item.image.childImageSharp.fluid.src})`,
           backgroundSize: 'cover',
