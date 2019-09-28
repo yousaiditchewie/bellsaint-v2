@@ -1,12 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import '../styles/components/Gallery.scss';
 
-const Gallery = ({ imageList }) => (
-  <div className="Gallery">
-    {imageList.map(item => (
+const GalleryThumbnail = ({ item, idx }) => {
+  const [isActive, setIsActive] = useState(false);
+
+  const handleClick = () => {
+    setIsActive(!isActive);
+  };
+
+  return (
+    <div
+      className={`Gallery-image ${isActive ? 'is-active' : ''}`}
+      onClick={handleClick}
+    >
       <div
-        key={item.altText.replace(' ', '_')}
+        id={`gallery-image-${idx + 1}`}
+        key={idx}
         className="Gallery-thumbnail"
         style={{
           backgroundImage: `url(.${item.image.childImageSharp.fluid.src})`,
@@ -14,31 +24,20 @@ const Gallery = ({ imageList }) => (
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat'
         }}
-        onClick={handleClick}
       >
         <div className="Gallery-thumbnailFrame" />
       </div>
+    </div>
+  );
+};
+
+const Gallery = ({ imageList }) => (
+  <div className="Gallery">
+    {imageList.map((item, idx) => (
+      <GalleryThumbnail key={idx} item={item} idx={idx} />
     ))}
   </div>
 );
-
-const handleClick = click => {
-  toggleActiveClass(locateThumbnailElement(click.target));
-};
-
-const locateThumbnailElement = element => {
-  if (!element.classList.contains('Gallery-thumbnail')) {
-    return locateThumbnailElement(element.parentElement);
-  }
-
-  return element;
-};
-
-const toggleActiveClass = element => {
-  return element.classList.contains('is-active')
-    ? element.classList.remove('is-active')
-    : element.classList.add('is-active');
-};
 
 Gallery.propTypes = {
   imageList: PropTypes.arrayOf(
