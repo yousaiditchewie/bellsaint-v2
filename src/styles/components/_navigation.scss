@@ -43,10 +43,8 @@
       transition: max-width 0.25s ease-out;
     }
 
-    @media (any-hover: hover) {
-      &:hover:before {
-        max-width: 70px;
-      }
+    &:hover:before {
+      max-width: 70px;
     }
 
     &.look {

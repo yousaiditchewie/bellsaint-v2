@@ -53,6 +53,12 @@ const MobileNav = class extends React.Component {
             <Link className="MobileNav-link" to="/live">
               Live
             </Link>
+            <a
+              href="https://bellsaint.myshopify.com/"
+              className="MobileNav-shop button"
+            >
+              SHOP
+            </a>
             <div className="MobileNav-socialLinksWrapper">
               <SocialLinks />
             </div>

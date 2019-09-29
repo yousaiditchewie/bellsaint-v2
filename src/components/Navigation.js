@@ -36,26 +36,26 @@ const Navigation = class extends React.Component {
     return (
       <nav
         className={`Navigation container ${this.state.navBarActiveClass}`}
-        role='navigation'
-        aria-label='main-navigation'
+        role="navigation"
+        aria-label="main-navigation"
       >
-        <div className='Navigation-left'>
-          <div className='Navigation-list'>
-            <Link className='Navigation-item look' to='/look'>
+        <div className="Navigation-left">
+          <div className="Navigation-list">
+            <Link className="Navigation-item look" to="/look">
               Look
             </Link>
-            <Link className='Navigation-item listen' to='/listen'>
+            <Link className="Navigation-item listen" to="/listen">
               Listen
             </Link>
-            <Link className='Navigation-item learn' to='/learn'>
+            <Link className="Navigation-item learn" to="/learn">
               Learn
             </Link>
-            <Link className='Navigation-item live' to='/live'>
+            <Link className="Navigation-item live" to="/live">
               Live
             </Link>
           </div>
         </div>
-        <div className='Navigation-right'>
+        <div className="Navigation-right">
           <Logo />
         </div>
       </nav>
