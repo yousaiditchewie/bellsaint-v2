@@ -25,7 +25,8 @@
     transition: max-height 0.25s ease, opacity 0.2s ease-out;
 
     .is-open & {
-      max-height: 311px;
+      // height of all Mobile Nav links, SHOP button, and SOCIAL links
+      max-height: 375px;
       opacity: 1;
     }
   }
@@ -35,12 +36,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    padding: 1rem 1rem 0 1rem;
   }
 
   &-link,
   &-socialLinksWrapper {
     padding: 1rem 0;
+  }
+
+  &-shop {
+    margin: 1rem 0;
   }
 
   &-bottom {

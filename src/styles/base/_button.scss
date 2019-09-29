@@ -6,10 +6,6 @@
   text-transform: uppercase;
   font-weight: $primary-font-weight;
 
-  &:not(:first-child) {
-    margin-left: 0.5rem;
-  }
-
   &:hover {
     background-color: $light-gray;
     box-shadow: $depth;
