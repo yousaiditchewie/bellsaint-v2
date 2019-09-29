@@ -10,10 +10,8 @@
     margin-left: 0.5rem;
   }
 
-  @media (any-hover: hover) {
-    &:hover {
-      background-color: $light-gray;
-      box-shadow: $depth;
-    }
+  &:hover {
+    background-color: $light-gray;
+    box-shadow: $depth;
   }
 }

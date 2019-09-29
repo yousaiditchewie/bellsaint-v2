@@ -1,10 +1,14 @@
 .SocialLinks {
   display: flex;
-  align-items: initial;
+  align-items: center;
   padding-bottom: 1rem;
 
   @media (min-width: $portable) {
     padding-bottom: 0;
+  }
+
+  &-shop {
+    margin-right: 1rem;
   }
 
   &-label {
@@ -15,6 +19,8 @@
 
   &-link {
     padding-right: 1rem;
+    height: 1.5rem;
+
     .dot {
       display: inline-block;
       width: 1.5rem;
