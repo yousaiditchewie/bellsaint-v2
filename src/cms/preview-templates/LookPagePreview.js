@@ -3,10 +3,7 @@ import PropTypes from 'prop-types';
 import { LookPageTemplate } from '../../templates/look-page';
 
 const LookPagePreview = ({ entry, widgetFor }) => (
-  <LookPageTemplate
-    title={entry.getIn(['data', 'title'])}
-    content={widgetFor('body')}
-  />
+  <LookPageTemplate gallery={entry.getIn(['data', 'gallery'])} />
 );
 
 LookPagePreview.propTypes = {
