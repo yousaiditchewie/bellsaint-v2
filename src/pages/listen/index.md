@@ -1,6 +1,6 @@
 ---
 templateKey: listen-page
-title: Listen to BELLSAINT
+title: LISTEN | BELLSAINT
 appleMusicUrl: 'https://geo.itunes.apple.com/us/artist/bellsaint/1264091814?app=itunes'
 spotifyUrl: >-
   https://open.spotify.com/artist/1ASbcqMhp2Xsx8xQ2NQK0p?si=PuPUXKDLTQq0f-O-cdOt9Q
