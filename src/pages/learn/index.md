@@ -1,6 +1,6 @@
 ---
 templateKey: learn-page
-title: Learn about BELLSAINT
+title: LEARN | BELLSAINT
 ---
 ![BELLSAINT](/img/bellsaint-latest-single.jpg "BELLSAINT")
 
