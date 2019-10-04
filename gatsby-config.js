@@ -6,38 +6,6 @@ module.exports = {
     description: 'Singer + Songwriter from Los Angeles, California.'
   },
   plugins: [
-    /* Waiting on domain swap for GA Tracking ID
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: 'YOUR_GOOGLE_ANALYTICS_TRACKING_ID',
-        // Puts tracking script in the head instead of the body
-        head: false,
-        // Setting this parameter is optional
-        anonymize: true,
-        // Setting this parameter is also optional
-        respectDNT: true,
-        // Avoids sending pageview hits from custom paths
-        exclude: ['/preview/**', '/do-not-track/me/too/'],
-        // Enables Google Optimize using your container Id
-        optimizeId: 'YOUR_GOOGLE_OPTIMIZE_TRACKING_ID',
-        // Enables Google Optimize Experiment ID
-        experimentId: 'YOUR_GOOGLE_EXPERIMENT_ID',
-        // Set Variation ID. 0 for original 1,2,3....
-        variationId: 'YOUR_GOOGLE_OPTIMIZE_VARIATION_ID',
-        // Any additional create only fields (optional)
-        sampleRate: 5,
-        siteSpeedSampleRate: 10,
-        cookieDomain: 'example.com'
-      }
-    },
-    */
-    // {
-    //   resolve: 'gatsby-plugin-mailchimp',
-    //   options: {
-    //     endpoint: '' // add your MC list endpoint here;
-    //   }
-    // },
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     {
@@ -111,6 +79,12 @@ module.exports = {
       options: {
         endpoint:
           'https://me.us20.list-manage.com/subscribe/post?u=a6f354c5cb7da315a75e1b3d8&amp;id=ad32155102'
+      }
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'UA-85710672-6'
       }
     },
     'gatsby-plugin-netlify' // make sure to keep it last in the array
