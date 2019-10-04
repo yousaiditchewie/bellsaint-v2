@@ -61,7 +61,7 @@ const Signup = () => {
           <input
             className="Signup-submit button"
             type="submit"
-            value="submit"
+            value="subscribe"
           />
         </form>
         {mailchimpResponse.result === 'success' ? (
