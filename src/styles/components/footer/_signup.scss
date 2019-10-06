@@ -1,4 +1,11 @@
 .Signup {
+  &-container {
+    // width of form + button on desktop
+    // this is to keep the Mailchimp error/success messages
+    // from being too wide
+    max-width: 390px;
+  }
+
   &-email {
     max-width: 235px;
     padding: calc(0.25rem + 1px) 1.25rem;
@@ -20,5 +27,9 @@
 
   .birthday {
     display: none;
+  }
+
+  &-success {
+    font-size: 0.75rem;
   }
 }
