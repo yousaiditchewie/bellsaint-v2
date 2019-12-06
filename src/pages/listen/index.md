@@ -7,11 +7,4 @@ spotifyUrl: >-
 soundcloudUrl: 'https://soundcloud.com/bellsaintmusic'
 youtubeUrl: 'https://www.youtube.com/bellsaintmusic?sub_confirmation=1'
 ---
-
-https://open.spotify.com/track/72jF227qW5KQvTUBEqM0Vf
-
-https://open.spotify.com/track/72jF227qW5KQvTUBEqM0Vf
-
-https://open.spotify.com/track/72jF227qW5KQvTUBEqM0Vf
-
-https://open.spotify.com/track/72jF227qW5KQvTUBEqM0Vf
+https://open.spotify.com/album/0OHi9KQUQkXiQIcynNHu7P?si=TeZJ0DiVSWWENr96Jgrt3w
