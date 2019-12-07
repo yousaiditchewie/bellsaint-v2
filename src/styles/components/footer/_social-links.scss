@@ -12,7 +12,7 @@
 
     @media (min-width: $tablet) {
       display: inline-block;
-      margin-right: 1rem;
+      margin-right: 2rem;
     }
   }
 
@@ -23,8 +23,16 @@
   }
 
   &-link {
-    padding-right: 1rem;
+    padding-right: 3rem;
     height: 1.5rem;
+
+    @media (min-width: $tablet) {
+      padding-right: 2rem;
+    }
+
+    &:last-child {
+      padding-right: 0;
+    }
 
     .dot {
       display: inline-block;
@@ -33,22 +41,21 @@
       border-radius: 50%;
     }
 
-    &--facebook {
-      .dot {
-        background-color: $facebook;
-      }
+    path {
+      fill: $black;
+      transition: 0.2s ease-out;
     }
 
-    &--instagram {
-      .dot {
-        background-color: $instagram;
-      }
+    &--facebook:hover path {
+      fill: $facebook;
     }
 
-    &--twitter {
-      .dot {
-        background-color: $twitter;
-      }
+    &--instagram:hover path {
+      fill: $instagram;
+    }
+
+    &--twitter:hover path {
+      fill: $twitter;
     }
   }
 }
