@@ -2,8 +2,8 @@
 templateKey: look-page
 title: LOOK | BELLSAINT
 gallery:
-  - altText: BELLSAINT has new music
-    image: /img/bellsaint-latest-single.jpg
+  - altText: 'Credit: Natasha Wilson | @deanastacia'
+    image: /img/bellsaint-pink-bg-edit-no-fade_artwork_2000x1587.png
   - altText: BELLSAINT has new music1
     image: /img/bellsaint-latest-single.jpg
   - altText: BELLSAINT has new music2
