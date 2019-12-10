@@ -10,7 +10,7 @@ gallery:
     image: /img/907a4091-edit-lo-fi.png
   - altText: 'Credit: Natasha Wilson | @deanastacia'
     image: /img/bellsaint-csaw-pic-2.png
-  - altText: BELLSAINT has new music4
+  - altText: 'Credit: Natasha Wilson | @deanastacia'
     image: /img/bellsaint-latest-single.jpg
 ---
 
