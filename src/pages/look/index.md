@@ -7,7 +7,7 @@ gallery:
   - altText: 'Credit: Natasha Wilson | @deanastacia'
     image: /img/img_9282-edit_2000x1257.jpeg
   - altText: 'Credit: Allister Ann | @allister_ann'
-    image: /img/907a4091-edit-lo-fi.png
+    image: /img/907a4091-edit-lo-fi_square.png
   - altText: 'Credit: Natasha Wilson | @deanastacia'
     image: /img/bellsaint-csaw-pic-2.png
   - altText: 'Credit: Natasha Wilson | @deanastacia'
