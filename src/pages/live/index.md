@@ -1,6 +1,6 @@
 ---
 templateKey: live-page
-title: Live | BELLSAINT
+title: LIVE | BELLSAINT
 shows:
   - buttons:
       - text: Tickets
