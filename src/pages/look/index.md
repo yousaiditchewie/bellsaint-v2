@@ -12,5 +12,7 @@ gallery:
     image: /img/bellsaint-csaw-pic-2.png
   - altText: 'Credit: Natasha Wilson | @deanastacia'
     image: /img/bellsaint-latest-single.jpg
+  - altText: 'Credit: Natasha Wilson | @deanastacia'
+    image: /img/img_8763-edit_2000x1534.jpeg
 ---
 
