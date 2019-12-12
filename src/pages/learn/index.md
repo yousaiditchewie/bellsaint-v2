@@ -2,7 +2,7 @@
 templateKey: learn-page
 title: LEARN | BELLSAINT
 ---
-![BELLSAINT](/img/bellsaint-latest-single.jpg "BELLSAINT")
+![BELLSAINT BIO](/img/bellsaint-pink-bg-edit-no-fade_artwork_2000x1587.png "BELLSAINT BIO")
 
 With a sound reminiscent of a modern-day Nancy Sinatra meets The Black Keys, this Los angeles-based siren is on the edge of becoming a household name. Having released powerhouse singles debuting all over the media, there are exciting things on the horizon for this alt-pop rising star originally from Texas.
 
@@ -12,7 +12,7 @@ Her haunting cover of REM’s _Losing My Religion_ reached #1 on Hype Machine an
 
 For her Recent single _Karma_, she collaborated with clothing brand club monaco for the official music video, and garnered enthusiastic buzz for the song as well as the fashion.
 
-_Karma_ was listed at #6 on Elle’s “Best songs of 2018 (so far)”, and Refinery29 listed her at #3 for “Best Song lyrics of 2018 (So far).” This caused her fanbase to spread even more rapidly.
+_Karma_ was listed at #6 on Elle’s _Best songs of 2018 (So Far)_, and Refinery29 listed her at #3 for _Best Song lyrics of 2018._ This caused her fanbase to spread even more rapidly.
 
 She performed as an official SXSW showcasing artist for the grammy museum in 2017, and in 2018 went on a week-long tour in southern california opening for recording artist Silentó.
 
