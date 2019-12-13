@@ -10,7 +10,9 @@ shows:
         url: 'https://www.facebook.com/events/596895827549615/'
     cityState: 'Los Angeles, CA'
     date: 'December 18, 2019'
-    venue: Pico Union Project
+    venue: >-
+      Killphonic and Songbird Sessions Present: Fa La La Land @ Pico Union
+      Project
   - buttons:
       - text: Tickets
         url: >-
@@ -19,6 +21,6 @@ shows:
         url: 'https://www.bandsintown.com/a/14748664'
     cityState: 'Los Angeles, CA'
     date: 'February 12, 2020'
-    venue: The Troubadour
+    venue: The Troubadour (supporting The Lone Bellow)
 ---
 
