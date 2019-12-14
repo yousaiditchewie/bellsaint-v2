@@ -3,7 +3,7 @@ var proxy = require('http-proxy-middleware');
 module.exports = {
   siteMetadata: {
     title: 'BELLSAINT',
-    description: 'Singer + Songwriter from Los Angeles, California.'
+    description: 'Technicolor Dream EP out now!'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
