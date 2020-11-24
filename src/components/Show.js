@@ -11,20 +11,24 @@ const Show = ({ show }) => (
       </div>
       <div className="Show-right">
         <div className="Show-cityState">{show.cityState}</div>
-        <div className="Show-buttonsWrapper">
           {show.buttons &&
             show.buttons.map((button, index) => (
-              <a
-                key={index}
-                className="Show-button button"
-                href={button.url}
-                target="_blank"
-                rel="noreferrer noopener"
-              >
-                {button.text.toUpperCase()}
-              </a>
+              <div className="Show-buttonsWrapper">
+                {button.text === ''
+                  ? <span></span>
+                  : 
+                  <a
+                    key={index}
+                    className="Show-button button"
+                    href={button.url}
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    {button.text.toUpperCase()}
+                  </a>
+                }
+              </div>
             ))}
-        </div>
       </div>
     </div>
   </div>
