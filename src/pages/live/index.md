@@ -6,6 +6,6 @@ shows:
       - text: ''
         url: ''
     cityState: ''
-    date: 'We hope to see your faces in person soon!'
-    venue: ''
+    date: 'We hope to see your faces in-person soon!'
+    venue: 'There are currently no shows scheduled.'
 ---
