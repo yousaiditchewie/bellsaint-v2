@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
 title: BELLSAINT
-image: /img/bellsaint-pink-bg-edit-no-fade_artwork_2000x1587.png
+image: /img/wfneo_artwork_v5_v2_4000x4000_final.png
 ---
-https://open.spotify.com/album/0OHi9KQUQkXiQIcynNHu7P?si=G2ijJPlMRlWTh0bIRB4g7A
+https://open.spotify.com/album/60I4NXdayE7zhnU3FvyOtn?si=ethRoJ0wRYufzSiRQtI-3Q
