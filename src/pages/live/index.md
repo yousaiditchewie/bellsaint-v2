@@ -3,9 +3,10 @@ templateKey: live-page
 title: LIVE | BELLSAINT
 shows:
   - buttons:
-      - text: ''
-        url: ''
-    cityState: ''
-    date: 'We hope to see your faces in-person soon!'
-    venue: 'There are currently no shows scheduled.'
+      - text: who knows
+        url: bellsaintmusic.com
+    cityState: support local music
+    date: wear a mask
+    venue: who knows
 ---
+
