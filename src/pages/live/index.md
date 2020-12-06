@@ -3,10 +3,10 @@ templateKey: live-page
 title: LIVE | BELLSAINT
 shows:
   - buttons:
-      - text: who knows
+      - text: WFNEO out now
         url: bellsaintmusic.com
-    cityState: support local music
-    date: wear a mask
+    cityState: wear a mask
+    date: support local music
     venue: who knows
 ---
 
