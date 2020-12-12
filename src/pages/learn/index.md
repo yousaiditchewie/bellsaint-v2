@@ -2,7 +2,7 @@
 templateKey: learn-page
 title: LEARN | BELLSAINT
 ---
-![BELLSAINT BIO](/img/natasha-wilson-final-ed2.jpg "BELLSAINT BIO")
+![BELLSAINT BIO](/img/img_8395-edit.jpg "BELLSAINT BIO")
 
 With a unique sound that blends 60s nostalgia with modern femme persuasion, BELLSAINT is a bold, unapologetic force of nature.
 
