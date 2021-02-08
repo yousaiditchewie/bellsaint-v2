@@ -1,29 +1,29 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { HTMLContent } from '../../components/Content';
 import { IndexPageTemplate } from '../../templates/index-page';
 
-const IndexPagePreview = ({ entry, getAsset }) => {
-  const data = entry.getIn(['data']).toJS();
+const IndexPagePreview = ({ entry, widgetFor }) => {
+  // const data = entry.getIn(['data']).toJS();
 
-  if (data) {
-    return (
-      <IndexPageTemplate
-        image={data.image}
-        title={data.title}
-        heading={data.heading}
-        subheading={data.subheading}
-      />
-    );
-  } else {
-    return <div>Loading...</div>;
-  }
+  // if (data) {
+  return (
+    <IndexPageTemplate
+      contentComponent={HTMLContent}
+      image={entry.getIn(['data', 'image'])}
+      content={widgetFor('body')}
+    />
+  );
+  // } else {
+  // return <div>Loading...</div>;
+  // }
 };
 
 IndexPagePreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func
   }),
-  getAsset: PropTypes.func
+  widgetFor: PropTypes.func
 };
 
 export default IndexPagePreview;
