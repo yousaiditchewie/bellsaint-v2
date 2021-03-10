@@ -3,7 +3,7 @@ templateKey: look-page
 title: LOOK | BELLSAINT
 gallery:
   - altText: 'Credit: Stephanie Rapp'
-    image: /img/el-cortez-ed-3.png
+    image: /img/bellsaint-ed-3-cropped.jpg
   - altText: 'Credit: Stephanie Rapp'
     image: /img/el-cortez-2.png
   - altText: 'Credit: Allister Ann | @allister_ann'
