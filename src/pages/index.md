@@ -1,22 +1,8 @@
 ---
 templateKey: index-page
 title: BELLSAINT
-image: /img/wfneo_artwork_v5_v2_4000x4000_final.png
+image: /img/thank-you-but-no-thank-you_artwork_final_3000x3000.png
 ---
-**Kathryn Gohmert** 
-
-
-
-Love and Terror, 2008
-
-
-
-100 x 120 cm
-
-
-
-Mixed media
-
-
+new single **thank you but no thank you** out now
 
 https://open.spotify.com/album/60I4NXdayE7zhnU3FvyOtn?si=ethRoJ0wRYufzSiRQtI-3Q
