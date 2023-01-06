@@ -5,4 +5,4 @@ image: /img/thank-you-but-no-thank-you_artwork_final_3000x3000.png
 ---
 new single **thank you but no thank you** out now
 
-https://open.spotify.com/album/60I4NXdayE7zhnU3FvyOtn?si=ethRoJ0wRYufzSiRQtI-3Q
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/41t5pPykPsOd7tzOlHQFRb?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
