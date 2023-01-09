@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: BELLSAINT
-image: /img/thank-you-but-no-thank-you_artwork_final_3000x3000.png
+image: /img/wfneo_artwork_v5_v2_4000x4000_final.png
 ---
 new single **thank you but no thank you** out now
 
