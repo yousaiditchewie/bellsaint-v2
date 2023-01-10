@@ -5,8 +5,8 @@ shows:
   - buttons:
       - text: thank you but no thank you out now
         url: 'https://ffm.to/bellsaint_thankyoubutnothankyou'
-    cityState: in the meantime
-    date: listen to my new song
+    cityState: listen to my new song
+    date: in the meantime
     venue: TBD
 ---
 
