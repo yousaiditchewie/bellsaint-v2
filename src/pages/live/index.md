@@ -3,8 +3,8 @@ templateKey: live-page
 title: LIVE | BELLSAINT
 shows:
   - buttons:
-      - text: thank you but no thank you out now
-        url: 'https://ffm.to/bellsaint_thankyoubutnothankyou'
+      - text: visit me on TikTok
+        url: 'https://tiktok.com/@bellsaintmusic'
     cityState: listen to my new song
     date: in the meantime
     venue: TBD
