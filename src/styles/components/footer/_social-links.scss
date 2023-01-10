@@ -41,6 +41,10 @@
       border-radius: 50%;
     }
 
+    &--tiktokIcon {
+      max-width: 1.5rem;
+      height: auto;
+    }
     path {
       fill: $black;
       transition: 0.2s ease-out;
