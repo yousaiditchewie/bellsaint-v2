@@ -7,8 +7,6 @@ image: /img/thank-you-but-no-thank-you_artwork_final_3000x3000.png
 
 <br> stream the new single "thank you but no thank you" [**HERE**](https://ffm.to/bellsaint_thankyoubutnothankyou) </br>
 
-<br>
-
 <br> debut album **i used to be funny** coming 2023 </br>
 
 <br>
