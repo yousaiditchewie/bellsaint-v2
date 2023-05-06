@@ -7,6 +7,6 @@ spotifyUrl: >-
 soundcloudUrl: 'https://soundcloud.com/bellsaintmusic'
 youtubeUrl: 'https://www.youtube.com/bellsaintmusic?sub_confirmation=1'
 ---
-<br>new single _thank you but no thank you_ out now</br>
+<br>new single _love co_ out now</br>
 
-[**stream here**](https://ffm.to/bellsaint_thankyoubutnothankyou)
+****[**stream here**](http://ffm.to/bellsaint_loveco)****
