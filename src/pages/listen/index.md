@@ -9,4 +9,4 @@ youtubeUrl: 'https://www.youtube.com/bellsaintmusic?sub_confirmation=1'
 ---
 <br>new single _love co_ out now</br>
 
-****[**stream here**](http://ffm.to/bellsaint_loveco)****
+[stream here](http://ffm.to/bellsaint_loveco)
