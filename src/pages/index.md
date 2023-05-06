@@ -5,7 +5,7 @@ image: /img/thank-you-but-no-thank-you_artwork_final_3000x3000.png
 ---
 <br> 
 
-<br> stream the new single "love co" [**HERE**](http://ffm.to/bellsaint_loveco) </br>
+<br> stream the new single _love co_ [**HERE**](http://ffm.to/bellsaint_loveco) </br>
 
 <br> debut album **i used to be funny** coming 2023 </br>
 
