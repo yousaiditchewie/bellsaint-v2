@@ -5,8 +5,8 @@ shows:
   - buttons:
       - text: visit me on TikTok
         url: 'https://tiktok.com/@bellsaintmusic'
-    cityState: in the meantime
-    date: i'm very excited to play live again
+    cityState: i'm very excited to play live again
+    date: in the meantime
     venue: TBD
 ---
 
