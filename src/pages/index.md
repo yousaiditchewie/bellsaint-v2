@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: BELLSAINT
-image: /img/thank-you-but-no-thank-you_artwork_final_3000x3000.png
+image: /img/love-co_artwork_final_v6_3000x3000.png
 ---
 <br> 
 
