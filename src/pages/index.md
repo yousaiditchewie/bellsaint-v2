@@ -5,7 +5,7 @@ image: /img/love-co_artwork_final_v6_3000x3000.png
 ---
 <br> 
 
-<br> stream the new single **love co** [**HERE**](http://ffm.to/bellsaint_loveco) | debut album **i used to be funny** coming 20 oct 2023 </br>
+<br> stream the new single "love co" [**HERE**](http://ffm.to/bellsaint_loveco) | debut album **i used to be funny** coming 20 oct 2023 </br>
 
 <br><br>
 
