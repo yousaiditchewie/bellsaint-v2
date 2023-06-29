@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: BELLSAINT
-image: /img/dancing-for-the-mirror_artwork_pfp_3000x3000.png
+image: /img/landing-page_iutbf.png
 ---
 <br><br>|| DEBUT LP **i used to be funny** 20 OCT 2023 ||<br><br>|| STREAM THE SINGLES NOW ||<br><br>
 
