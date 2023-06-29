@@ -5,7 +5,7 @@ image: /img/dancing-for-the-mirror_artwork_final_v2_3000x3000.png
 ---
 <br> 
 
-<br> stream the new single "dancing for the mirror" [**HERE**](https://ffm.to/bellsaint_dancingforthemirror) | debut album **i used to be funny** coming 20 oct 2023 </br>
+<br>debut album **i used to be funny** coming 20 oct 2023 | stream the new single "dancing for the mirror" [**HERE**](https://ffm.to/bellsaint_dancingforthemirror)</br>
 
 <br><br>
 
