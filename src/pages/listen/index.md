@@ -9,4 +9,4 @@ youtubeUrl: 'https://www.youtube.com/bellsaintmusic?sub_confirmation=1'
 ---
 <br>|| NEW SINGLE <b>dancing for the mirror</b> ||<br><br>|| <b>[LISTEN HERE](http://ffm.to/bellsaint_dancingforthemirror)</b> ||<br><br>
 
-<div style="position: relative; padding-bottom: 100%; height: 0; overflow: hidden; max-width: 100%;"><iframe src="https://embed.tidal.com/tracks/292753557?layout=gridify" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 1px; min-height: 100%; margin: 0 auto;"></iframe></div>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2tORMLqj9nKdrD1tCqEQ52?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
