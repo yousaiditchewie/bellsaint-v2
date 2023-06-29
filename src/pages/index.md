@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: BELLSAINT
-image: /img/dancing-for-the-mirror_artwork_final_v2_3000x3000.png
+image: /img/dancing-for-the-mirror_artwork_pfp_3000x3000.png
 ---
 <br> 
 
