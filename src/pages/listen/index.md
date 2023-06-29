@@ -7,4 +7,4 @@ spotifyUrl: >-
 soundcloudUrl: 'https://soundcloud.com/bellsaintmusic'
 youtubeUrl: 'https://www.youtube.com/bellsaintmusic?sub_confirmation=1'
 ---
-<br>new single **love co** out now | <b>[stream here](http://ffm.to/bellsaint_loveco)</b>
+<br>new single **dancing for the mirror** out now | <b>[stream here](http://ffm.to/bellsaint_dancingforthemirror)</b>
