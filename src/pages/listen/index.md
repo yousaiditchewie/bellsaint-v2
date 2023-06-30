@@ -7,14 +7,34 @@ spotifyUrl: >-
 soundcloudUrl: 'https://soundcloud.com/bellsaintmusic'
 youtubeUrl: 'https://www.youtube.com/bellsaintmusic?sub_confirmation=1'
 ---
-<br><Br><b>|| [LISTEN HERE](http://ffm.to/bellsaint_dancingforthemirror)</b> ||<br><br><br>
+<br><br>|| <b>i used to be funny.</b> || <b>LP</b> || <br><br>AVAILABLE 20 OCT 2023 • STREAM THE SINGLES NOW
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2tORMLqj9nKdrD1tCqEQ52?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/57AgoXhWPiwZF3QEP386mY?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3QUGmpNsmueG3Kmc149aaz?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<br>|| <b>Technicolor Dream</b> || <b>EP</b> ||<br>
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5gQdC5rTDB9rXD9JgrS6x0?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/7BW5FhbUGKkYfbyAPaugtG?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2qiu5dBARP4xBl3AI9Ppwe?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<br>|| <b>WFNEO</b> || <b>SINGLE</b> ||<br>
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4w15BDY16UTfjwZHJblogs?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/60I4NXdayE7zhnU3FvyOtn?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<br>|| <b>Losing My Religion</b> || <b>SINGLE</b> ||<br>
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5yd5rpfgN97nIDZJmRGcVQ?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<br>|| <b>Bang Bang (Remember My Name)</b> || <b>SINGLE</b> ||<br>
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/7k7W6sFJy1WvPAvpKIB54b?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<br>|| <b>Landmines</b> || <b>SINGLE</b> ||<br>
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0tSbS5gmEw3X907wOwL9pa?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<br>|| <b>Uninvited – from "Little Fires Everywhere"</b> || <b>SINGLE</b> ||<br>
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3UzTRBCsgcfhZuhn3jtV9X?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<br>|| <b>Walk Through The Fire</b> || <b>SINGLE</b> ||<br>
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6ptnGWimsxGvlwURTwW7VA?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
