@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: BELLSAINT
-image: /img/landing-page_iutbf3.png
+image: /img/landing-page_iutbf4.png
 ---
 <br><br><br><center>|| DEBUT LP <b>i used to be funny.</b> 20 OCT 2023 ||<br><br>|| STREAM THE SINGLES NOW ||</center><br><br><br>
 
