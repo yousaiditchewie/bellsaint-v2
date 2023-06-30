@@ -4,7 +4,7 @@ title: LEARN | BELLSAINT
 ---
 ![BELLSAINT BIO](/img/press-5.jpg "BELLSAINT BIO")
 
-With a unique sound that blends nostalgia with modern ferocity, BELLSAINT is a bold force of nature. Throughout her music career, she consistently returns to her earlier influences like Johnny Cash, Stevie Nicks, and ABBA. 
+<br><br><br><br>With a unique sound that blends nostalgia with modern ferocity, BELLSAINT is a bold force of nature. Throughout her music career, she consistently returns to her earlier influences like Johnny Cash, Stevie Nicks, and ABBA. 
 
 The Los Angeles-based singer/songwriter Caroline Brooks (BELLSAINT) was born in Tyler, Texas, and started getting lead roles in kindergarten musicals when she was 5. She started playing piano when she was 7 and began taking classical voice lessons at age 13. As a Radio-TV-Film major at the University of Texas at Austin, she moved to Los Angeles and started making a name for herself as an in-demand singer/songwriter. 
 
