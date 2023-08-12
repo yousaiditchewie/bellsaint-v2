@@ -2,8 +2,6 @@
 templateKey: learn-page
 title: LEARN | BELLSAINT
 ---
-![BELLSAINT BIO](/img/press-5.jpg "BELLSAINT BIO")
-
 With a unique sound that blends nostalgia with modern ferocity, BELLSAINT is a bold force of nature in her music and advocacy. Throughout her music career, she consistently returns to her earlier influences like Johnny Cash, Dolly Parton, David Byrne, Bruce Springsteen, and Stevie Nicks. 
 
 The Los Angeles-based singer/songwriter Caroline Brooks (BELLSAINT) was born in Tyler, Texas, and started getting lead roles in musicals when she was 5. She started playing piano when she was 7 and began taking classical voice lessons at age 13. As a Radio-TV-Film major at the University of Texas at Austin, she moved to Los Angeles and started making a name for herself as an in-demand singer/songwriter. 
@@ -21,3 +19,5 @@ Her upcoming album _i used to be funny._ is set to release October 20, 2023, and
 As a performer, she’s shared the stage with artists such as Lord Huron, Alec Benjamin, The Lone Bellow, Ocean Park Standoff, Katelyn Tarver, Scary Pockets, and the Warbly Jets. She has also performed in various music festivals including SXSW (official showcasing artist for the Grammy Museum), San Diego’s Lantern Street Festival, and southern California’s High School Nation Tour. She’s also garnered praise from such outlets as The New York Times, Refinery29, Extra, Elle, Galore Magazine, LADYGUNN, and Us Weekly, the latter of whom called her their “favorite new artist.” Her collaboration with Klergy, “Walk Through Fire,” reached No. 8 on Billboard’s Top TV Songs Chart after it aired in the hit show Riverdale. Her cover of “Uninvited”, featured on the Little Fires Everywhere soundtrack, debuted in Shazam’s Top Tracks 2020 Playlist. She also did a featured fashion collaboration with Club Monaco for her “Karma” music video, and has performed on iHeartRadio’s Dunkin’ Latte Lounge, MIX 94.1 Vegas, DASH Radio, NBC’s Daytime, NYC’s PIX11 News, and Los Angeles’ KTLA.
 
 When she’s not writing or recording music, BELLSAINT is doing her part to inspire future generations of creatives. She volunteers as a music coach at L.A.’s Rock n’ Roll Camp for Girls, and teaches songwriting as a therapeutic tool for at-risk youth at the non-profit program Awaken Arts. In addition, profits from her cover of “Losing my Religion” were donated to the National Center for Victims of Crime, and she has donated use of her songs to She Is The Music, a non-profit program that promotes equality, inclusivity, and opportunity for young women interested in pursuing careers in music that would otherwise not have access.
+
+![BELLSAINT BIO](/img/press-5.jpg "BELLSAINT BIO")
