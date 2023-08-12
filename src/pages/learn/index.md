@@ -14,6 +14,8 @@ Music from the 60s — a time when women were fighting to have a voice in the wo
 
 BELLSAINT also refuses to be neutral, instead opting to make bold, largely personal statements through all aspects of her music – from her artistry to her songwriting. “I came up with the name BELLSAINT because I wanted to have a genderless name nobody else had,” she says. “’Bell’ felt vulnerable and beautiful, while ‘saint’ felt strong and empowering.
 
+<br><br><br><br><br><br><br><br>
+
 ![BELLSAINT BIO](/img/press-5.jpg "BELLSAINT BIO")
 
 Her upcoming album _i used to be funny._ is set to release October 20, 2023, and it features personal songs about love, religious trauma, and empowerment. The track list includes collaborations with Jamie Sierota (Echosmith, Adam Lambert, Jawny), Paul Williams (David Bowie, Daft Punk, Portugal the Man), Grammy-nominated songwriter Garrison Starr (Margaret Cho, Backstreet Boys), Jake Scott (Carrie Underwood, Aloe Blacc), and Bruce Wiegner (Katy Perry).
