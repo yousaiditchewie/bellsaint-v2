@@ -14,7 +14,7 @@ Music from the 60s — a time when women were fighting to have a voice in the wo
 
 BELLSAINT also refuses to be neutral, instead opting to make bold, largely personal statements through all aspects of her music – from her artistry to her songwriting. “I came up with the name BELLSAINT because I wanted to have a genderless name nobody else had,” she says. “’Bell’ felt vulnerable and beautiful, while ‘saint’ felt strong and empowering.
 
-<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ![BELLSAINT BIO](/img/press-5.jpg "BELLSAINT BIO")
 
