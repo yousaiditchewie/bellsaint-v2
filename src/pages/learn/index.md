@@ -16,7 +16,7 @@ BELLSAINT also refuses to be neutral, instead opting to make bold, largely perso
 
 Her upcoming album _i used to be funny._ is set to release October 20, 2023, and it features personal songs about love, religious trauma, and empowerment. The track list includes collaborations with Jamie Sierota (Echosmith, Adam Lambert, Jawny), Paul Williams (David Bowie, Daft Punk, Portugal the Man), Grammy-nominated songwriter Garrison Starr (Margaret Cho, Backstreet Boys), Jake Scott (Carrie Underwood, Aloe Blacc), and Bruce Wiegner (Katy Perry).
 
-As a performer, she’s shared the stage with artists such as Lord Huron, Alec Benjamin, The Lone Bellow, Ocean Park Standoff, Katelyn Tarver, Chance Peña, Scary Pockets, and the Warbly Jets. She has also performed in various music festivals including SXSW (official showcasing artist for the Grammy Museum), 
+As a performer, she’s shared the stage with artists such as Lord Huron, Alec Benjamin, The Lone Bellow, Ocean Park Standoff, Katelyn Tarver, Chance Peña, Scary Pockets, and the Warbly Jets. She has also performed in various music festivals including SXSW (official showcasing artist for the Grammy Museum),<br>
 
 <br>
 
