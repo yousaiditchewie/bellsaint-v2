@@ -15,10 +15,6 @@ youtubeUrl: 'https://www.youtube.com/bellsaintmusic?sub_confirmation=1'
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/7BW5FhbUGKkYfbyAPaugtG?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
-<br>|| <b>WFNEO</b> || <b>SINGLE</b> ||<br>
-
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/60I4NXdayE7zhnU3FvyOtn?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
 <br>|| <b>Losing My Religion</b> || <b>SINGLE</b> ||<br>
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5yd5rpfgN97nIDZJmRGcVQ?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
