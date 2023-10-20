@@ -9,7 +9,7 @@ youtubeUrl: 'https://www.youtube.com/bellsaintmusic?sub_confirmation=1'
 ---
 <br><br>|| <b>i used to be funny.</b> || <b>LP</b> ||<br>
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/7pXWDEDTmy1A5I1NPZQ8MV?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/7da2islBlr2IUA2dJeLyg9?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <br>|| <b>Technicolor Dream</b> || <b>EP</b> ||<br>
 
